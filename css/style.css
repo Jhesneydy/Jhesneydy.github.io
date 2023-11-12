@@ -1,0 +1,405 @@
+/*estilos generales*/
+
+.sect-title {
+    font-size: 2rem;
+    padding: 2px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.descrip {
+    font-size: 1.2 rem;
+    color: #584e4e;
+}
+
+.badges-contenedor {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges {
+    margin: 5px;
+}
+
+.paragrp {
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
+
+.dark-sect {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.lg-sect {
+    color: black;
+    background-color: white;
+}
+
+.btn-info {
+    font-size: 1.2rem;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+
+/***********************************************/
+
+
+/* estilos de navbar */
+
+.navbar {
+    background-color: #4b3c2d;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*estilos hero*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+.hero {
+    background-color: #f7f6f7;
+    min-height: 450px;
+}
+
+.dev-img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: solid 5px royalblue;
+}
+
+.main-hero h2 {
+    font-size: 1.5rem;
+    font-family: 'Arvo', serif;
+}
+
+
+/*conoceme*/
+
+.conoceme {
+    padding: 10px;
+}
+
+.conoceme .wrap {
+    max-width: 1000px;
+    text-align: justify;
+}
+
+p a {
+    text-decoration: none;
+}
+
+p a:hover {
+    color: rgb(235, 79, 32);
+}
+
+.expert {
+    padding: 40px 40px 60px 40px;
+}
+
+.exp-titl {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.expert i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+
+/*proyectos*/
+
+.proyect {
+    padding: 40px;
+}
+
+.proyecto img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(90, 44, 44);
+    margin-bottom: 0;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.proyecto:hover img {
+    opacity: 0.3;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+
+/*testimomio*/
+
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel {
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonio-imagen {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 50%;
+}
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.testimonio-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonio-info p {
+    margin-bottom: 0;
+}
+
+.testimonio-info .cliente {
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: #656060;
+}
+
+
+/*contacto*/
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin-right: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    color: black;
+    background-color: white;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+    color: black;
+}
+
+
+/*footer*/
+
+
+/* Pie de pagina (footer) */
+
+footer {
+    min-height: 500px;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
+
+/* responsivo */
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+    .conoceme {
+        height: 600px;
+        padding: 10px;
+    }
+    .conoceme .wrap {
+        max-width: 510px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .sec-hero-img {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+    .overlay i {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .testimonio-imagen {
+        height: 120px;
+        width: 120px;
+    }
+    .testimonio-texto {
+        font-size: 18px;
+    }
+}
