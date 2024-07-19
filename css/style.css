@@ -28,12 +28,12 @@
 
 .dark-sect {
     color: white;
-    background-color: #1b1b32;
+    background-color: #E6593C;
 }
 
 .lg-sect {
     color: black;
-    background-color: white;
+    background-color: #E6A988;
 }
 
 .btn-info {
@@ -57,7 +57,13 @@
 /* estilos de navbar */
 
 .navbar {
-    background-color: #4b3c2d;
+    background-color: #C11D1D;
+   
+}
+
+.navbar a {
+    font-size: 1.2rem;
+    color: white;
 }
 
 .navbar-collapse {
@@ -401,6 +407,11 @@ footer {
     }
     .overlay i {
         font-size: 40px;
+    }
+
+    .derechos-de-autor {
+        font-size: 10px;
+       
     }
 }
 
