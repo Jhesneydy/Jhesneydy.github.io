@@ -56,9 +56,13 @@
 
 /* estilos de navbar */
 
+#hero{
+    margin-top: 4.5rem;
+}
+
 .navbar {
     background-color: #C11D1D;
-   
+    
 }
 
 .navbar a {
@@ -75,6 +79,7 @@
 /*estilos hero*/
 
 section {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -387,6 +392,8 @@ footer {
 /* responsivo */
 
 @media screen and (max-width: 767px) {
+
+    
     .navbar-brand {
         display: none;
     }
@@ -407,6 +414,7 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+    
     .overlay p {
         font-size: 18px;
     }
